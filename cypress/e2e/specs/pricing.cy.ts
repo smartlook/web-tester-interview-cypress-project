@@ -4,7 +4,7 @@
 
 context('Pricing', () => {
     beforeEach(() => {
-        cy.visit('https://www.alfa.smartlook.cloud/pricing/?currencyCode=CZK')
+        cy.visit('https://www.smartlook.com/pricing/?currencyCode=CZK')
     })
 
     // Check prices of packages
